@@ -1,0 +1,6 @@
+<!--pages/userinfo/nickname/nickname.wxml-->
+<view class="nickname">
+  <button open-type="getUserInfo" bindgetuserinfo="useWxnickname">使用微信名</button>
+  <input placeholder="自定义用户名" value="{{newNickname}}" bindinput="handleInput"></input>
+  <button bindtap="changeNickname">自定义用户名</button>
+</view>

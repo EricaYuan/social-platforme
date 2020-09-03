@@ -1,0 +1,33 @@
+/* pages/user/user.wxss */
+.user_info{
+  display: flex;
+  border-bottom: 1rpx solid #666;
+  padding: 20rpx;
+}
+.user_info .user_pic{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  overflow: hidden;
+}
+.user_info .user_pic image{
+  width: 100%;
+  height: 100%;
+}
+.user_info .user_name{
+  line-height: 100rpx;
+  margin-left: 20rpx;
+}
+.user_info button{
+  margin: 0 !important;
+  margin-left: 20rpx !important;
+}
+.userinfo_block{
+  padding: 30rpx 0;
+}
+.userinfo_block .s_bar{
+  padding: 10rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ccc;
+}

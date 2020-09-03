@@ -1,0 +1,4 @@
+/* pages/message/message.wxss */
+.message{
+  /* padding: 30rpx; */
+}

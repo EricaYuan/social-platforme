@@ -1,0 +1,13 @@
+/* pages/userinfo/nickname/nickname.wxss */
+.nickname{
+  padding: 30rpx;
+}
+input{
+  border: 1rpx solid sienna;
+  border-radius: 4rpx;
+  padding-left: 20rpx;
+  margin: 40rpx 0;
+}
+button{
+  width: 100% !important;
+}

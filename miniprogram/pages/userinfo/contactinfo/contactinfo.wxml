@@ -1,0 +1,13 @@
+<!--pages/userinfo/contactinfo/contactinfo.wxml-->
+<view class="contactinfo">
+  <!-- 修改wx号 -->
+  <view class="outbox">
+    <input type='text' value='{{wxNumber}}' bindinput="wxInput" placeholder="wx number"></input>
+    <button bindtap='changeWxNumber'>修改微信号</button>
+  </view>
+  <!-- 修改手机号 -->
+  <view class="outbox">
+    <input type='number' value='{{phoneNumber}}' bindinput="phoneInput" placeholder="phone number"></input>
+    <button bindtap='changePhoneNumber'>修改手机号</button>
+  </view>
+</view>

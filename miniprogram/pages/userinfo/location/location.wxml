@@ -1,0 +1,5 @@
+<!--pages/userinfo/location/location.wxml-->
+<view class="location">
+  <text class="switchlable">开启位置共享</text>
+  <switch checked="{{showLocation}}" bindchange="switchChange"/>
+</view>

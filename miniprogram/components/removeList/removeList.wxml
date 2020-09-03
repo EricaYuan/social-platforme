@@ -1,0 +1,11 @@
+<!--components/removeList/removeList.wxml-->
+<movable-area class='out_box'>
+  <movable-view class="inner_box" direction="horizontal" damping='100' x='150'>
+    {{nickName}}
+    <view class="addbtn" bindtap="handleAdd">添加</view>
+  </movable-view>
+  <!-- 头像 -->
+  <image src='{{userPhoto}}' bindtap="toDetailPage" class="userphoto" mode='aspectFill' />
+  <!-- delete btn -->
+  <view class="delete_btn" bindtap="handleDelete">删除</view>
+</movable-area>

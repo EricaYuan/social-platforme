@@ -1,0 +1,7 @@
+/* pages/userinfo/location/location.wxss */
+.location{
+  padding: 30rpx;
+}
+.switchlable{
+  margin-right: 20rpx;
+}

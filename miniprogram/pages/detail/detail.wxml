@@ -1,0 +1,37 @@
+<!--pages/detail/detail.wxml-->
+<view class="userdetail">
+  <view class="detail_content">
+    <view class="detailitem">
+      <text>昵称：</text>
+      <text>{{detail.nickName}}</text>
+    </view>
+    <view class="detailitem">
+      <text>头像：</text>
+      <image src="{{detail.userPhoto}}" mode='aspectFill'></image>
+    </view>
+    <view class="detailitem">
+      <text>签名：</text>
+      <text>{{detail.signature}}</text>
+    </view>
+    <view class="detailitem">
+      <text>手机号：</text>
+      <block wx:if='{{ isFriend }}'>
+        <text>{{detail.phoneNumber}}</text>
+        <phone-call wx:if='{{detail.phoneNumber}}' phone-number='{{detail.phoneNumber}}' />
+      </block>
+      <text wx:else>仅好友可见</text>
+    </view>
+    <view class="detailitem">
+      <text>微信号：</text>
+      <block wx:if='{{ isFriend }}'>
+        <text>{{detail.wxNumber}}</text>
+        <copy-text wx:if='{{detail.wxNumber}}' copy-text = '{{detail.wxNumber}}' />
+      </block>
+      <text wx:else>仅好友可见</text>
+    </view>
+  </view>
+  <block wx:if='{{showBtn}}'>
+    <button wx:if="{{isFriend}}" disabled>已是好友</button>
+    <button wx:else bindtap="addFriend">添加好友</button>
+  </block>
+</view>

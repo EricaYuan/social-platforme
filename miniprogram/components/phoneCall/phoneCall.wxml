@@ -1,0 +1,2 @@
+<!--components/phoneCall/phoneCall.wxml-->
+<text class="iconfont icondianhua" bindtap="makePhonecall"></text>

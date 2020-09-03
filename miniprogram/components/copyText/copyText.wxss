@@ -1,0 +1,5 @@
+/* components/copyText/copyText.wxss */
+.iconfont{
+  padding: 0 30rpx;
+  color: sandybrown;
+}

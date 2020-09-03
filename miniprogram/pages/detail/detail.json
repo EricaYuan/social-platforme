@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "phone-call" : "../../components/phoneCall/phoneCall",
+    "coty-text" : "../../components/copyText/copyText"
+  }
+}

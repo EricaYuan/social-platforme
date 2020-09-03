@@ -1,0 +1,28 @@
+<!--pages/user/user.wxml-->
+<view class="user">
+  <view class="user_info">
+    <view class="user_pic"><image src="{{userPic}}"></image></view>
+    <text wx:if="{{logged}}" class="user_name">WELCOME {{userNickname}}</text>
+    <button wx:else disabled="{{disable}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  </view>
+  <view wx:if="{{logged}}" class="userinfo_block">
+    <navigator url="../../pages/userinfo/userinfo">
+      <view class="s_bar">
+        <text>修改个人信息</text>
+        <text class="iconfont iconnext"></text>
+      </view>
+    </navigator>
+    <navigator url="../../pages/friendlist/friendlist">
+      <view class="s_bar">
+        <text>查看好友列表</text>
+        <text class="iconfont iconnext"></text>
+      </view>
+    </navigator>
+    <navigator url="{{'../../pages/detail/detail?userId=' + id}}">
+      <view class="s_bar">
+        <text>个人主页</text>
+        <text class="iconfont iconnext"></text>
+      </view>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/friendlist/friendlist.wxml-->
+<view class="friend_list">
+  <text class="page_title">好友列表</text>
+  <view wx:for='{{friendList}}' wx:key='index' class="list_box">
+    <navigator class="list_item" url="{{'../detail/detail?userId='+item._id}}">
+      <image src='{{item.userPhoto}}' mode='aspectFill' />
+      <view class="list_content">
+        <text class="name_box">{{item.nickName}}</text>
+        <view class="signature">{{item.signature}}</view>
+      </view>
+    </navigator>
+  </view>
+</view>

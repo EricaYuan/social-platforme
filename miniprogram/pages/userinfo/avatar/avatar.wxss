@@ -1,0 +1,17 @@
+/* pages/userinfo/avatar/avatar.wxss */
+.avatar{
+  padding: 30rpx;
+}
+button{
+  width: 100% !important;
+  margin-bottom: 30rpx;
+}
+.picbox{
+  background: snow;
+  text-align: center;
+}
+.picbox image{
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 50%;
+}

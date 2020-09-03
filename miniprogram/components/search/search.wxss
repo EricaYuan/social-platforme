@@ -1,0 +1,54 @@
+/* components/search/search.wxss */
+@import "../../style/iconfont/iconfont.wxss";
+.search_component{
+  background-color: #e5e5e5;
+}
+.search_component.is_focus{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 99;
+  padding-top: 30rpx;
+}
+.search_box{
+  padding: 0 15rpx;
+  display: flex;
+}
+.input_box{
+  flex-grow: 1;
+  background-color: #fff;
+  border-radius: 4rpx;
+  margin-right: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.input_box .iconfont{
+  margin: 0 5px;
+}
+.history_box{
+  padding: 0 30rpx;
+  margin-top: 50rpx;
+}
+.title_line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.tagbox .tag_item{
+  background-color: #fff;
+  border-radius: 4rpx;
+  padding: 4rpx 10rpx;
+  margin-right: 20rpx;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+}
+.resultbox{
+  margin-top: 40rpx;
+}
+.resultbox .result_item{
+  width: 100%;
+  border-bottom: 1rpx solid #999999;
+  height: 90rpx;
+  line-height: 90rpx;
+}

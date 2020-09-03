@@ -1,0 +1,25 @@
+<!--components/search/search.wxml-->
+<view class="search_component is_focus">
+  <!-- 搜索条带取消按钮 -->
+  <view class="search_box">
+    <view class="input_box">
+      <text class="iconfont iconsousuo"></text>
+      <input type="text" placeholder="搜索..."></input>
+    </view>
+    <view class="cancel_btn">取消</view>
+  </view>
+  <!-- 历史记录 -->
+  <view class="history_box">
+    <view class="title_line">
+      <text>搜索历史</text>
+      <text class="iconfont iconshanchu"></text>
+    </view>
+    <view class="tagbox">
+      <text class="tag_item">士大夫撒</text>
+      <text class="tag_item">士大夫撒</text>
+    </view>
+    <view class="resultbox">
+      <view class="result_item">小喵喵</view>
+    </view>
+  </view>
+</view>

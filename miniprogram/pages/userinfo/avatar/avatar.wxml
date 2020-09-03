@@ -1,0 +1,8 @@
+<!--pages/userinfo/avatar/avatar.wxml-->
+<view class="avatar">
+  <view class="picbox">
+    <image src="{{avatarUrl}}" bindtap='chooseImage' mode='aspectFill'></image>
+  </view>
+  <button open-type='getUserInfo' bindgetuserinfo='useWxavatar'>使用微信头像</button>
+  <button bindtap="uploadPic">上传头像</button>
+</view>

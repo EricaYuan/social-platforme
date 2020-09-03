@@ -1,0 +1,5 @@
+/* components/phoneCall/phoneCall.wxss */
+.iconfont{
+  padding: 0 30rpx;
+  color: sandybrown;
+}

@@ -1,0 +1,48 @@
+/* components/removeList/removeList.wxss */
+.out_box{
+  margin-top: 40rpx;
+  width: 100vw;
+  height: 150rpx;
+  line-height: 150rpx;
+  box-shadow: 2rpx 2rpx 20rpx 5rpx rgb(226, 223, 223);
+}
+.inner_box{
+  width: calc(100% - 150rpx);
+  height: 100%;
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.userphoto{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  margin-left: 5rpx;
+  margin-top: 5rpx;
+}
+.delete_btn{
+  width: 150rpx;
+  height: 100%;
+  color: #fff;
+  background-color: red;
+  line-height: 150rpx;
+  font-weight: bold;
+  position: absolute;
+  right: 0rpx;
+  top: 0rpx;
+  text-align: center;
+  z-index: 0;
+}
+.addbtn{
+  position: absolute;
+  padding: 0 30rpx;
+  color: pink;
+  background-color: antiquewhite;
+  z-index: 9;
+  height: 60rpx;
+  line-height: 60rpx;
+  right: 20rpx;
+  top: 60rpx;
+  border-radius: 8rpx;
+}

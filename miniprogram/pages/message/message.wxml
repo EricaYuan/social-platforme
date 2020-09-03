@@ -1,0 +1,10 @@
+<!--pages/message/message.wxml-->
+<view class="message" wx:if='{{logged}}'>
+  <view wx:if="{{ !userMessage.length }}">
+    <text>没有好友申请</text>
+  </view>
+  <view wx:else>
+    <text>消息列表：</text>
+    <remove-list wx:for='{{userMessage}}' bindremoveevent="removeEvent" wx:key='index' message-id='{{item}}' />
+  </view>
+</view>

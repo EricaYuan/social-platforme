@@ -1,0 +1,6 @@
+<!--pages/userinfo/signature/signature.wxml-->
+<view class="signature">
+  <input value="{{signatureValue}}" bindinput='handleInput'></input>
+  <button bindtap='changeSignature'>修改签名</button>
+</view>
+

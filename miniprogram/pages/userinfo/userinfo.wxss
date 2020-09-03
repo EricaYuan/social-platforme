@@ -1,0 +1,12 @@
+/* pages/userinfo/userinfo.wxss */
+.userinfo_list_item{
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx;
+  border-bottom: 1rpx solid silver;
+  line-height: 40rpx;
+}
+.list_item_tip{
+  color: sienna;
+  font-size: 24rpx;
+}

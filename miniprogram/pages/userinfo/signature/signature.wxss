@@ -1,0 +1,8 @@
+/* pages/userinfo/signature/signature.wxss */
+.signature input{
+  border: 1rpx solid sienna;
+  margin: 30rpx;
+  padding-left: 20rpx;
+  line-height: 30rpx;
+  font-size: 30rpx;
+}
